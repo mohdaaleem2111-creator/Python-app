@@ -11,7 +11,7 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/mohdaaleem2111-creator/Python-app.git'
+                git branch: 'master', url: 'https://github.com/mohdaaleem2111-creator/Python-app.git'
             }
         }
 
